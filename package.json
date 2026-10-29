@@ -1,0 +1,17 @@
+{
+  "name": "typst-docs",
+  "description": "Typst documentation site for GitHub Pages",
+  "scripts": {
+    "build": "node build.mjs",
+    "preview": "BASE=/ node build.mjs && cd dist && python3 -m http.server 8000"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@myriaddreamin/typst-ts-renderer": "0.8.0-rc3",
+    "@myriaddreamin/typst-ts-web-compiler": "0.8.0-rc3",
+    "@myriaddreamin/typst.ts": "0.8.0-rc3",
+    "marked": "^18.1.2",
+    "shiki": "^4.5.0"
+  },
+  "private": true
+}
