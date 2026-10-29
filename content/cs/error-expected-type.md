@@ -1,5 +1,5 @@
 ---
-title: Oprava chyby „expected relative length or auto, found string"
+title: Oprava chyby „expected relative length or auto, found string“
 description: Argument funkce dostal hodnotu špatného typu — často text v uvozovkách tam, kde Typst čeká délku, barvu nebo číslo.
 section: typst-errors
 related: [error-unexpected-argument, page-setup, markup-and-code]
@@ -14,7 +14,7 @@ related: [error-unexpected-argument, page-setup, markup-and-code]
 
 Typst je na úrovni argumentů funkcí staticky typovaný: `width:` u `rect()` očekává délku (nebo `auto`), ne text. `"4cm"` je *řetězec* — čtyři znaky — ne délka čtyři centimetry, i když to tak vypadá. Typst nahlásí, jaký typ čekal, jaký skutečně dostal, a přesně který argument.
 
-Každá hláška „expected ... found ..." má stejný tvar. Očekávaný typ pochází z dokumentace dané funkce; skutečný typ je to, co jste doopravdy napsali — řetězec tam, kde se čekala délka, celé číslo tam, kde se čekala barva, obsah tam, kde se čekal řetězec, a tak dále.
+Každá hláška „expected ... found ...“ má stejný tvar. Očekávaný typ pochází z dokumentace dané funkce; skutečný typ je to, co jste doopravdy napsali — řetězec tam, kde se čekala délka, celé číslo tam, kde se čekala barva, obsah tam, kde se čekal řetězec, a tak dále.
 
 ## Časté příčiny
 
@@ -36,7 +36,7 @@ Každá hláška „expected ... found ..." má stejný tvar. Očekávaný typ p
 ## Zkontrolujte si porozumění
 
 ```quiz
-`#set text(size: "11pt")` selže s hláškou „expected length, found string". Co je špatně?
+`#set text(size: "11pt")` selže s hláškou „expected length, found string“. Co je špatně?
 - [x] `"11pt"` je text v uvozovkách, ne délka `11pt`
 - [ ] `text()` argument `size` vůbec nepřijímá
 - [ ] `11pt` je pro `set text` moc malé

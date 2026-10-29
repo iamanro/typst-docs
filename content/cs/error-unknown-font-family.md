@@ -1,5 +1,5 @@
 ---
-title: Oprava hlášky „unknown font family"
+title: Oprava hlášky „unknown font family“
 description: Varování, ne chyba — Typst dokument i tak přeložil, ale písmo zadané přes #set text(font: ...) není nainstalované ani vložené.
 section: typst-errors
 related: [fonts, error-expected-type]
@@ -33,7 +33,7 @@ Je to **varování**, ne chyba: Typst pořád vytvoří výstup, jen ne s písme
 
 **Písmo prostě není nainstalované** tam, kde se dokument překládá. Písmo dostupné na vašem notebooku není automaticky dostupné na CI serveru, kolegově počítači nebo při sestavování tohoto webu — ověřte, jaká písma skutečně poskytuje dané sestavovací prostředí.
 
-**Zobrazované jméno se liší od jména rodiny.** Mnoho písem se v uživatelském rozhraní jmenuje „Rodina Light" nebo „Rodina Condensed Bold", zatímco samotná rodina je jen „Rodina", s řezem a stylem nastavenými zvlášť přes `weight:` a `style:`. Použijte jméno rodiny a řez upravte zvlášť:
+**Zobrazované jméno se liší od jména rodiny.** Mnoho písem se v uživatelském rozhraní jmenuje „Rodina Light“ nebo „Rodina Condensed Bold“, zatímco samotná rodina je jen „Rodina“, s řezem a stylem nastavenými zvlášť přes `weight:` a `style:`. Použijte jméno rodiny a řez upravte zvlášť:
 
 ```typ
 #set text(font: "Libertinus Serif", weight: "bold")
@@ -44,6 +44,6 @@ Hello world
 
 ## Co si zapamatovat
 
-- „Unknown font family" je varování: dokument se přeloží i tak, jen se špatným písmem.
+- „Unknown font family“ je varování: dokument se přeloží i tak, jen se špatným písmem.
 - Použijte jméno rodiny písma, ne zobrazovaný popisek ani jméno souboru.
 - Ověřte, jaká písma jsou dostupná tam, kde se dokument doopravdy překládá, ne jen u vás na počítači.

@@ -17,7 +17,7 @@ První odstavec s větší mezerou mezi řádky, než je obvyklé.
 Druhý odstavec, oddělený od prvního větší svislou mezerou.
 ```
 
-`leading` se měří v jednotkách `em`, relativně k aktuální velikosti písma, takže se automaticky škáluje s velikostí textu — zvyšte ho pro „dvojité řádkování", které recenzenti často vyžadují, nebo snižte, abyste se vešli na méně stránek:
+`leading` se měří v jednotkách `em`, relativně k aktuální velikosti písma, takže se automaticky škáluje s velikostí textu — zvyšte ho pro „dvojité řádkování“, které recenzenti často vyžadují, nebo snižte, abyste se vešli na méně stránek:
 
 ```typ example
 #set text(lang: "cs")
@@ -44,6 +44,6 @@ Druhý odstavec s mezerou navíc nahoře.
 
 ## Časté problémy
 
-- `leading` a `spacing` nastavené v `#set par(..)` platí všude od daného místa v dokumentu dál — požadované „dvojité řádkování" nastavte jednou, hned na začátku.
+- `leading` a `spacing` nastavené v `#set par(..)` platí všude od daného místa v dokumentu dál — požadované „dvojité řádkování“ nastavte jednou, hned na začátku.
 - Nadpisy a jiné bloky mají vlastní `#set block(spacing: ..)` a automaticky se neřídí `spacing` odstavců; pokud mezery kolem nadpisů vypadají špatně, zkontrolujte mezery bloku u `heading`, ne u `par`.
 - Příliš malé `leading` (pod zhruba `0.5em`) způsobí, že se dotahy písmen mezi řádky překrývají — vyzkoušejte hodnotu na cílové velikosti písma, než ji natrvalo nastavíte.

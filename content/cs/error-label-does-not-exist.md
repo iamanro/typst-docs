@@ -1,5 +1,5 @@
 ---
-title: Oprava chyby „label `<results>` does not exist in the document"
+title: Oprava chyby „label `<results>` does not exist in the document“
 description: Odkázali jste na popisek pomocí @name dřív, než byl v dokumentu tímto popiskem cokoliv označeno.
 section: typst-errors
 related: [figures-and-images, bibliography, error-file-not-found]
@@ -34,7 +34,7 @@ Viz @results pro podrobnosti.
 Viz @fig-square.
 ```
 
-**Překlep mezi popiskem a odkazem.** `<results>` a `@result` (bez „s") jsou pro Typst dva různé popisky — jméno musí sedět přesně.
+**Překlep mezi popiskem a odkazem.** `<results>` a `@result` (bez „s“) jsou pro Typst dva různé popisky — jméno musí sedět přesně.
 
 ## Zkontrolujte si porozumění
 

@@ -1,5 +1,5 @@
 ---
-title: Oprava chyby „unexpected argument: fil"
+title: Oprava chyby „unexpected argument: fil“
 description: Předali jste pojmenovaný argument, který funkce nepřijímá — téměř vždy překlep v jeho jméně.
 section: typst-errors
 related: [error-expected-type, error-unknown-variable, markup-and-code]
@@ -29,9 +29,9 @@ Typstovy funkce přijímají pevnou, zdokumentovanou sadu pojmenovaných argumen
 ## Zkontrolujte si porozumění
 
 ```quiz
-`#image("x.png", smooth: true)` selže s hláškou „unexpected argument: smooth". Co zkontrolovat nejdřív?
+`#image("x.png", smooth: true)` selže s hláškou „unexpected argument: smooth“. Co zkontrolovat nejdřív?
 - [x] Jestli `image()` vůbec takový argument má
 - [ ] Jestli je obrázek poškozený
 - [ ] Jestli má dokument pravidlo `#set page`
-> „Unexpected argument" znamená, že Typst to jméno vůbec nezná. Reference funkce `image` ukáže to správné: `scaling: "smooth"`.
+> „Unexpected argument“ znamená, že Typst to jméno vůbec nezná. Reference funkce `image` ukáže to správné: `scaling: "smooth"`.
 ```

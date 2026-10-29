@@ -1,5 +1,5 @@
 ---
-title: Oprava chyby „unknown variable `x`"
+title: Oprava chyby „unknown variable `x`“
 description: Typst narazil na jméno, které nikde není definováno — obvykle překlep, chybějící #let, nebo proměnná použitá mimo svůj rozsah platnosti.
 section: typst-errors
 related: [error-unclosed-delimiter, error-unexpected-argument, markup-and-code]
@@ -43,7 +43,7 @@ Výsledky z #pocet experimentů.
 ## Zkontrolujte si porozumění
 
 ```quiz
-Proč `#let a = 1` následované na dalším řádku `#b` (ne `a`) selže s hláškou „unknown variable `b`"?
+Proč `#let a = 1` následované na dalším řádku `#b` (ne `a`) selže s hláškou „unknown variable `b`“?
 - [ ] Typst povoluje jen jedno `#let` na dokument
 - [x] `b` nebylo nikdy k ničemu přiřazeno
 - [ ] Jména proměnných musí začínat stejným písmenem jako typ hodnoty

@@ -29,7 +29,7 @@ textem hned za otevírací složenou závorkou záznamu, třeba `connell1972` v
 `@article{connell1972, ...}` — vloží na tom místě naformátovanou citaci.
 Chová se jako odkaz na obrázek: Typst záznam vyhledá, vloží správnou
 podobu citace v textu podle zvoleného stylu a na konec automaticky přidá
-celý záznam do seznamu literatury. Zkratku „a kol." ani číslo v závorce
+celý záznam do seznamu literatury. Zkratku „a kol.“ ani číslo v závorce
 nikdy nepíšete sami.
 
 ## Explicitní funkce `#cite`
@@ -38,7 +38,7 @@ nikdy nepíšete sami.
 potřebujete možnosti, které zkratka nenabízí — nejčastěji číslo stránky
 nebo kapitoly u konkrétní citace:
 `#cite(<connell1972>, supplement: [s. 4])` cituje stejný záznam, ale na
-správné místo pro daný styl přidá „s. 4".
+správné místo pro daný styl přidá „s. 4“.
 
 ```typ lab
 #set page(width: 10cm, height: auto, margin: 8mm)
@@ -66,7 +66,7 @@ prostředí @connell1972, a jejich biodiverzita je podrobně zmapována od
 
 **Co byste měli vidět:** odstavec se dvěma citacemi ve stylu IEEE
 (čísla v hranatých závorkách), druhou s rozsahem stránek, a pod odstavcem
-číslovaný seznam literatury nadepsaný „Bibliografie" díky
+číslovaný seznam literatury nadepsaný „Bibliografie“ díky
 `#set text(lang: "cs")`, s oběma zdroji vypsanými celé.
 
 ## Změna stylu

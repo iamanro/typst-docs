@@ -33,7 +33,7 @@ Jak ukazuje @pyth, vztah platí pro pravoúhlé trojúhelníky.
 
 ## Číslování podle kapitoly
 
-Pro čísla ve stylu „(1.1)", „(1.2)", „(2.1)", která se resetují po kapitolách, postavte formát z aktuálního počítadla [nadpisů](/heading-numbering):
+Pro čísla ve stylu „(1.1)“, „(1.2)“, „(2.1)“, která se resetují po kapitolách, postavte formát z aktuálního počítadla [nadpisů](/heading-numbering):
 
 ```typ example
 #set text(lang: "cs")
@@ -51,5 +51,5 @@ Funkce dostane běžící počet rovnic `n`; spojením s `counter(heading).get()
 ## Časté problémy
 
 - Číslo se objeví jen u rovnic napsaných jako samostatný blok (`$ .. $` na vlastním řádku); matematika v běžném textu jako `$x + 1$` se nikdy nečísluje.
-- Pokud se `@štítek` nepřeloží s chybou „cannot reference text", skončil štítek na špatném řádku — dejte ho hned za uzavírací `$`, bez prázdného řádku mezi nimi.
+- Pokud se `@štítek` nepřeloží s chybou „cannot reference text“, skončil štítek na špatném řádku — dejte ho hned za uzavírací `$`, bez prázdného řádku mezi nimi.
 - Čísla rovnic a [čísla nadpisů](/heading-numbering) jsou ve výchozím stavu nezávislá počítadla; propojí je až vzorec podle kapitoly výše.

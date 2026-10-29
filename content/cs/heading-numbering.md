@@ -1,6 +1,6 @@
 ---
 title: Číslování nadpisů
-description: Zapněte číslování oddílů ve stylu „1.1" jedním řádkem, vynechte úroveň nebo napište vlastní číslovací funkci pro každou úroveň.
+description: Zapněte číslování oddílů ve stylu „1.1“ jedním řádkem, vynechte úroveň nebo napište vlastní číslovací funkci pro každou úroveň.
 section: typst-tips
 order: 7
 related: [table-of-contents, number-equations, appendix]
@@ -17,7 +17,7 @@ Nastavte `numbering` u `heading`, jen jednou. Každý `=`, `==`, `===` dostane �
 = Metody
 ```
 
-Formátovací řetězec odpovídá hloubce zanoření: `"1.1"` čísluje dvě úrovně jako „1", „1.1", „1.2", „2"; pro hlubší zanoření přidejte další skupiny `.1`, nebo použijte `"1."` pro jednu plochou úroveň jako „1.", „2.", „3.".
+Formátovací řetězec odpovídá hloubce zanoření: `"1.1"` čísluje dvě úrovně jako „1“, „1.1“, „1.2“, „2“; pro hlubší zanoření přidejte další skupiny `.1`, nebo použijte `"1."` pro jednu plochou úroveň jako „1.“, „2.“, „3.“.
 
 ## Různé styly podle úrovně
 
@@ -34,11 +34,11 @@ Pro kombinaci stylů — římské číslice u hlavních částí, arabské u od
 = Metody
 ```
 
-Nadpisy úrovně 1 se vytisknou jako „I.", „II."; nadpisy úrovně 2 se pod každým rodičem restartují na „1.".
+Nadpisy úrovně 1 se vytisknou jako „I.“, „II.“; nadpisy úrovně 2 se pod každým rodičem restartují na „1.“.
 
 ## Vynechání jednoho nadpisu z číslování
 
-Nadpis, který číslovat nechcete — „Poděkování" nebo „Abstrakt" — dostane přímo `numbering: none`, čímž přebije pravidlo platné pro celý dokument:
+Nadpis, který číslovat nechcete — „Poděkování“ nebo „Abstrakt“ — dostane přímo `numbering: none`, čímž přebije pravidlo platné pro celý dokument:
 
 ```typ example
 #set text(lang: "cs")

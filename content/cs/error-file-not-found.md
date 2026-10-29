@@ -1,5 +1,5 @@
 ---
-title: Oprava chyby „file not found"
+title: Oprava chyby „file not found“
 description: Funkce, která čte externí soubor — image(), include, read(), bibliography() — dostala cestu, kterou se z aktuálního souboru nepodařilo najít.
 section: typst-errors
 related: [error-label-does-not-exist, figures-and-images, bibliography]

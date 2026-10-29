@@ -52,7 +52,7 @@ Tento odstavec je čistý markup: *tučně*, _kurzíva_ a zalomení řádku
 fungují bez jakéhokoli `#`.
 ```
 
-**Co byste měli vidět:** vystředěný titulek nahoře, nadpis „Úvod", malý
+**Co byste měli vidět:** vystředěný titulek nahoře, nadpis „Úvod“, malý
 zaoblený šedý obdélník s popiskem uprostřed a pod ním odstavec s viditelně
 tučným a kurzívním slovem.
 
@@ -78,9 +78,9 @@ nebyla definována:
 Ahoj, #jmeno_navstevnika!
 ```
 
-Hláška — „unknown variable `jmeno_navstevnika`" — pojmenuje přesný problém
+Hláška — „unknown variable `jmeno_navstevnika`“ — pojmenuje přesný problém
 a řádek, kde k němu došlo. V živém editoru na tomto webu se chyby zobrazují
-stejně: jako „Řádek *N*: hláška" pod náhledem, přičemž náhled dál ukazuje
+stejně: jako „Řádek *N*: hláška“ pod náhledem, přičemž náhled dál ukazuje
 *poslední verzi, která se přeložila*, místo aby úplně zmizel. Je to záměr —
 můžete klidně psát dál, aniž byste ztratili rozkoukání, a starý náhled
 obvykle stačí k tomu, abyste poznali, jestli vaše poslední úprava byla ta,
@@ -108,7 +108,7 @@ Jaký je rozdíl mezi `*tučně*` a `#text(weight: "bold")[tučně]`?
 ```
 
 ```quiz
-Živý náhled na tomto webu ukazuje včerejší verzi vaší úpravy a pod ním se objeví chyba „Řádek 4: unknown variable `barva`". Co to znamená?
+Živý náhled na tomto webu ukazuje včerejší verzi vaší úpravy a pod ním se objeví chyba „Řádek 4: unknown variable `barva`“. Co to znamená?
 - [ ] Celý dokument se nepodařilo zpracovat a nic se nedá opravit
 - [x] Řádek 4 používá název, který Typst nezná; vše do posledního úspěšného překladu zůstává zobrazené
 - [ ] Chyba nesouvisí s vaším kódem a dá se ignorovat

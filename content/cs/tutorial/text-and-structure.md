@@ -38,8 +38,8 @@ zaslouží jeden znak místo volání funkce.
 
 Řádek začínající `=` je nadpis nejvyšší úrovně, `==` je o úroveň níž,
 `===` o další a tak dále. Typst nadpisy automaticky čísluje a stylizuje —
-žádné ruční „1.2.3" na začátku a žádný samostatný příkaz, který by říkal
-„tohle je podkapitola tamté". Zanoření určuje jen počet znaků `=`, které
+žádné ruční „1.2.3“ na začátku a žádný samostatný příkaz, který by říkal
+„tohle je podkapitola tamté“. Zanoření určuje jen počet znaků `=`, které
 napíšete.
 
 ## Seznamy
@@ -72,8 +72,8 @@ Nový odstavec začíná po prázdném řádku, s běžnou mezerou nad sebou.
 *Tučně*, _kurzíva_ a `kód` se v jedné větě dobře čtou.
 ```
 
-**Co byste měli vidět:** číslovaný nadpis „Metodika" s menším číslovaným
-podnadpisem „Vzorkování", číslovaný seznam tří míst, kde třetí má dvě
+**Co byste měli vidět:** číslovaný nadpis „Metodika“ s menším číslovaným
+podnadpisem „Vzorkování“, číslovaný seznam tří míst, kde třetí má dvě
 zanořené odrážky, dvouřádkový blok, který zůstává jedním odstavcem,
 samostatný odstavec pod ním a nakonec větu kombinující tučné, kurzívní a
 neproporcionální písmo.
@@ -84,8 +84,8 @@ neproporcionální písmo.
    `4.` automaticky; pak smažte druhou položku a sledujte, jak se zbytek
    přečísluje.
 2. Změňte `== Vzorkování` na `=== Vzorkování` a sledujte, jak se zmenší a
-   přečísluje jako hlubší podkapitola místo sourozence „Metodiky".
-3. Odstraňte zpětné lomítko na konci řádku s „tvrdým zalomením" a sledujte,
+   přečísluje jako hlubší podkapitola místo sourozence „Metodiky“.
+3. Odstraňte zpětné lomítko na konci řádku s „tvrdým zalomením“ a sledujte,
    jak se oba řádky spojí do jednoho zalamovaného řádku místo toho, aby
    zůstaly viditelně oddělené.
 

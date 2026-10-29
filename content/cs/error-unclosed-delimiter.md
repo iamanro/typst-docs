@@ -1,5 +1,5 @@
 ---
-title: Oprava chyby „unclosed delimiter"
+title: Oprava chyby „unclosed delimiter“
 description: Typst došel na konec souboru, zatímco pořád čekal na uzavírací závorku odpovídající té, kterou dřív otevřel.
 section: typst-errors
 related: [error-unknown-variable, markup-and-code]
@@ -30,12 +30,12 @@ Každá `[`, `(` nebo `{`, kterou Typst otevře, musí být uzavřena odpovídaj
 #bod
 ```
 
-**Závorka uzavřená špatným znakem.** `[` musí uzavírat `]`, ne `)` — Typst je nepovažuje za zaměnitelné a jejich záměna vyvolá stejnou hlášku „unclosed delimiter", protože z pohledu parseru je původní závorka pořád otevřená.
+**Závorka uzavřená špatným znakem.** `[` musí uzavírat `]`, ne `)` — Typst je nepovažuje za zaměnitelné a jejich záměna vyvolá stejnou hlášku „unclosed delimiter“, protože z pohledu parseru je původní závorka pořád otevřená.
 
 ## Zkontrolujte si porozumění
 
 ```quiz
-Typst nahlásí „unclosed delimiter" se stříškou na `[` na řádku 2, ale váš soubor má 40 řádků. Kde nejspíš je skutečná chyba?
+Typst nahlásí „unclosed delimiter“ se stříškou na `[` na řádku 2, ale váš soubor má 40 řádků. Kde nejspíš je skutečná chyba?
 - [x] Někde za řádkem 2 — chybí uzavírací `]` k té závorce
 - [ ] Vždy přímo na řádku 2
 - [ ] V úplně jiném souboru

@@ -63,7 +63,7 @@ dokumentu; každá bloková rovnice po něm dostane průběžné číslo ve styl
 který zadáte, a `"(1)"` můžete kdykoli vyměnit za `"1."` nebo `"[1]"`, aniž
 byste museli měnit cokoli jiného. Dejte rovnici popisek jako `<eq:obsah>`
 hned za ní a `@eq:obsah` kdekoli jinde v dokumentu se změní na klikatelné
-„(1)", které vždy odpovídá skutečnému číslu — i kdybyste později přidali
+„(1)“, které vždy odpovídá skutečnému číslu — i kdybyste později přidali
 rovnice dřív a všechno se posunulo.
 
 ## Vyzkoušejte si to

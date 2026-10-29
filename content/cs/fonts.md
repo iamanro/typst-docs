@@ -20,7 +20,7 @@ Tento text používá písmo Libertinus Serif.
 Matematika ve výchozím stavu používá písmo New Computer Modern Math: $ integral_0^1 x^2 dif x = 1/3 $
 ```
 
-Matematika používá samostatné „matematické písmo" (zde New Computer Modern Math), které poskytuje speciální varianty znaků potřebné pro vzorce; nenastavuje se stejně jako text — vybere se automaticky z dostupných písem, nebo ho explicitně zvolíte uvnitř `#show math.equation`.
+Matematika používá samostatné „matematické písmo“ (zde New Computer Modern Math), které poskytuje speciální varianty znaků potřebné pro vzorce; nenastavuje se stejně jako text — vybere se automaticky z dostupných písem, nebo ho explicitně zvolíte uvnitř `#show math.equation`.
 
 ## Zjištění písem na vašem počítači
 
@@ -30,7 +30,7 @@ Typst vidí jen písma, která najde — nainstalovaná v systému a ta, na kter
 typst fonts
 ```
 
-Pokud rodina, kterou chcete (třeba univerzitní firemní písmo nebo „Noto Serif" kvůli širší podpoře jazyků), v seznamu chybí, buď ji nainstalujte do systému, nebo Typstu řekněte, kde soubory najít.
+Pokud rodina, kterou chcete (třeba univerzitní firemní písmo nebo „Noto Serif“ kvůli širší podpoře jazyků), v seznamu chybí, buď ji nainstalujte do systému, nebo Typstu řekněte, kde soubory najít.
 
 ## Použití písma, které Typst ještě nevidí
 
@@ -60,6 +60,6 @@ Tento odstavec uvádí záložní řetězec: Typst použije první písmo, kter�
 
 ## Časté problémy
 
-- Překlepnutý nebo neexistující název rodiny nezpůsobí chybu — Typst tiše přejde na náhradní písmo a místo toho vypíše varování „unknown font family"; viz [oprava chyby „unknown font family"](/error-unknown-font-family), pokud kvůli tomu padá build.
+- Překlepnutý nebo neexistující název rodiny nezpůsobí chybu — Typst tiše přejde na náhradní písmo a místo toho vypíše varování „unknown font family“; viz [oprava chyby „unknown font family“](/error-unknown-font-family), pokud kvůli tomu padá build.
 - Názvy písem se porovnávají podle rodiny, ne podle názvu souboru — zkontrolujte název, který hlásí `typst fonts`, ne jméno souboru s písmem.
 - `--font-path` musí být uvedený při každé kompilaci; mezi jednotlivými spuštěními se nepamatuje, takže ho buildovací skripty potřebují pokaždé znovu.

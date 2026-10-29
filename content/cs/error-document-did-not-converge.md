@@ -1,5 +1,5 @@
 ---
-title: Oprava hlášky „document did not converge within five attempts"
+title: Oprava hlášky „document did not converge within five attempts“
 description: Varování — nějaká hodnota ve vašem dokumentu (často z context, state nebo query) závisí na svém vlastním výsledném rozvržení, takže se Typstovo opakované překládání nikdy neustálí.
 section: typst-errors
 related: [page-numbers, table-of-contents, error-unknown-font-family]
@@ -39,7 +39,7 @@ warning: number of heading elements did not stabilize
 
 ## Co to znamená
 
-Typst dokument nejdřív rozvrhne a pak zkontroluje, jestli by se něco, co závisí na *výsledku* rozvržení (čísla stránek zobrazená v obsahu, `here().position()`, state přečtený poté, co byl aktualizován, výsledky query), změnilo, kdyby rozvrhoval znovu s touto novou informací. Pokud ano, zopakuje to — až pětkrát — v naději, že se hodnoty ustálí. „Did not converge" znamená, že se měnily při každém pokusu; Typst to vzdá a použije poslední verzi, která může být jemně špatně (číslo stránky posunuté o jednu, mírně posunutý obsah).
+Typst dokument nejdřív rozvrhne a pak zkontroluje, jestli by se něco, co závisí na *výsledku* rozvržení (čísla stránek zobrazená v obsahu, `here().position()`, state přečtený poté, co byl aktualizován, výsledky query), změnilo, kdyby rozvrhoval znovu s touto novou informací. Pokud ano, zopakuje to — až pětkrát — v naději, že se hodnoty ustálí. „Did not converge“ znamená, že se měnily při každém pokusu; Typst to vzdá a použije poslední verzi, která může být jemně špatně (číslo stránky posunuté o jednu, mírně posunutý obsah).
 
 ## Časté příčiny
 
@@ -51,6 +51,6 @@ Typst dokument nejdřív rozvrhne a pak zkontroluje, jestli by se něco, co záv
 
 ## Co si zapamatovat
 
-- „Document did not converge" je varování: Typst pořád vytvoří PDF, ale možná ne tak, jak čekáte.
+- „Document did not converge“ je varování: Typst pořád vytvoří PDF, ale možná ne tak, jak čekáte.
 - Stává se to, když něco závislého na rozvržení (pozice, state, query) zpětně ovlivňuje rozvržení, ze kterého to vzešlo.
-- Doprovodné varování „did not stabilize" jmenuje přesný `context` nebo state, který za to může — začněte tam.
+- Doprovodné varování „did not stabilize“ jmenuje přesný `context` nebo state, který za to může — začněte tam.
